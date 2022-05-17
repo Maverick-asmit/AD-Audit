@@ -1,7 +1,5 @@
 # ADRecon: Active Directory Recon [![Follow ADRecon on Twitter](https://img.shields.io/twitter/follow/ad_recon.svg?style=social&label=Follow%20%40ad_recon)](https://twitter.com/intent/user?screen_name=ad_recon "Follow ADRecon on Twitter")
 
-This [repo](https://github.com/adrecon/ADRecon) contains updates to the original [concept and code](https://github.com/sense-of-security/adrecon) by Prashant Mahajan (@prashant3535) while working at [Sense of Security](https://senseofsecurity.com.au).
-
 ADRecon is a tool which extracts and combines various artefacts (as highlighted below) out of an AD environment. The information can be presented in a specially formatted Microsoft Excel report that includes summary views with metrics to facilitate analysis and provide a holistic picture of the current state of the target AD environment.
 
 The tool is useful to various classes of security professionals like auditors, DFIR, students, administrators, etc. It can also be an invaluable post-exploitation tool for a penetration tester.
