@@ -34,14 +34,6 @@ The following information is gathered by the tool:
 * Kerberoast (not included in the default collection method); and
 * Domain accounts used for service accounts (requires privileged account and not included in the default collection method).
 
-ADRecon was presented at: [![Black Hat Arsenal Asia 2018](https://github.com/toolswatch/badges/blob/master/arsenal/asia/2018.svg)](https://www.blackhat.com/asia-18/arsenal.html#adrecon-active-directory-recon) - [Slidedeck](https://speakerdeck.com/prashant3535/adrecon-bh-asia-2018-arsenal-presentation)
-
-[![Black Hat Arsenal USA 2018](https://github.com/toolswatch/badges/blob/master/arsenal/usa/2018.svg)](https://www.blackhat.com/us-18/arsenal/schedule/index.html#adrecon-active-directory-recon-11912) | [![DEFCON 26 Demolabs](https://hackwith.github.io/badges/defcon/26/demolabs.svg)](https://www.defcon.org/html/defcon-26/dc-26-demolabs.html) - [Slidedeck](https://speakerdeck.com/prashant3535/adrecon-bh-usa-2018-arsenal-and-def-con-26-demo-labs-presentation)
-
-[Bay Area OWASP](https://www.meetup.com/en-AU/Bay-Area-OWASP/events/253585385/) - [Slidedeck](https://speakerdeck.com/prashant3535/active-directory-recon-101-owasp-bay-area-presentation)
-
-[CHCON](https://2018.chcon.nz/mainevent.html) - [Slidedeck](https://speakerdeck.com/prashant3535/adrecon-detection-chcon-2018)
-
 ## Getting Started
 
 These instructions will get you a copy of the tool up and running on your local machine.
@@ -151,37 +143,4 @@ When you run ADRecon, a `ADRecon-Report-<timestamp>` folder will be created whic
     Create ADRecon Log using Start-Transcript
 ```
 
-### Future Plans
 
-* Replace System.DirectoryServices.DirectorySearch with System.DirectoryServices.Protocols and add support for LDAP STARTTLS and LDAPS (TCP port 636).
-* ~~Add Domain Trust Enumeration.~~
-* Add option to filter default ACLs.
-* ~~Gather ACLs for other objects such as Users, Group, etc.~~
-* Additional export and storage option: export to ~~STDOUT~~, SQLite, ~~xml~~, ~~json~~, ~~html~~, pdf.
-* Use the EPPlus library for Excel Report generation and remove the dependency on MS Excel.
-* List issues identified and provide recommended remediation advice based on analysis of the data.
-* Add PowerShell Core support.
-
-### Bugs, Issues and Feature Requests
-
-Please report all bugs, issues and feature requests in the [issue tracker](https://github.com/adrecon/ADRecon/issues). Or let me (@prashant3535) know directly.
-
-### Contributing
-
-Pull request are always welcome.
-
-### Mad props
-
-Thanks for the awesome work by @_wald0, @CptJesus, @harmj0y, @mattifestation, @PyroTek3, @darkoperator, @ITsecurityAU Team, @CTXIS Team and others.
-
-### License
-
-ADRecon is a tool which gathers information about the Active Directory and generates a report which can provide a holistic picture of the current state of the target AD environment.
-
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
-
-You should have received a copy of the GNU Affero General Public License along with this program. If not, see http://www.gnu.org/licenses/.
-
-This program borrows and uses code from many sources. All attempts are made to credit the original author. If you find that your code is used without proper credit, please shoot an insult to @prashant3535, Thanks.
